@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
 	var markerTemplate = jQuery('#markerTemplate').html();
 
 	jQuery.ajax({
-		url: "/data/institutions.json",
+		url: "data/institutions.json",
 	})
 	.done(function(result) {
 		for (var index = 0; index < result.length; index++) {
